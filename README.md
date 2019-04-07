@@ -1,2 +1,2 @@
-# jornal
+# jorna
 Jornal Nova &amp; Ciência
