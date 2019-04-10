@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: "Roboto", sans-serif;
-  color: #a6a6a6;
+  color: #000000;
   font-size: 14px;
   line-height: 2;
   font-weight: 400;
@@ -927,10 +927,11 @@ input:focus {
   margin-bottom: 0;
   background-color: transparent;
   border-radius: 0;
+  color: #000000 !important;
 }
 
 .vizew-breadcrumb .breadcrumb .breadcrumb-item {
-  color: #ffffff !important;
+  color: #000000 !important;
   font-size: 16px;
   font-weight: 400;
 }
@@ -954,7 +955,7 @@ input:focus {
 }
 
 .vizew-breadcrumb .breadcrumb .breadcrumb-item a {
-  color: #fff;
+  color: #000000;
   font-size: 16px;
   font-weight: 400;
 }
@@ -968,6 +969,7 @@ input:focus {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .vizew-breadcrumb .breadcrumb .breadcrumb-item a {
     font-size: 14px;
+    color: #000000 !important;
   }
 }
 
@@ -985,7 +987,7 @@ input:focus {
 .vizew-breadcrumb .breadcrumb-item+.breadcrumb-item::before {
   content: "\f105";
   font-family: "FontAwesome";
-  color: #fff;
+  color: #000000;
 }
 
 .single-blog-post {
@@ -1075,7 +1077,7 @@ input:focus {
 }
 
 .single-blog-post .post-content .post-title:hover, .single-blog-post .post-content .post-title:hover {
-  color: #db4437;
+  color: #2458c7;
 }
 
 .single-blog-post .post-content .post-meta a {
@@ -1621,11 +1623,16 @@ input:focus {
 }
 
 .vizew-blockquote .blockquote-text {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
   font-style: italic;
   margin-bottom: 15px;
+  color: #ffffff !important;
+}
+
+.blockquote-text h5 h6{
+  color: #ffffff !important;
 }
 
 @media only screen and (max-width: 767px) {
